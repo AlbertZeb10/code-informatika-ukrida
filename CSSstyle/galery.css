@@ -1,0 +1,119 @@
+.container
+  {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto
+  }
+.border
+{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+  border: 1px solid white
+}
+.card{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative
+}
+
+.card0{
+  background: url("../images/tulus.jpg") center center no-repeat;
+  background-size: 300px
+}
+
+
+  .hover{
+    background: url("../images/tulus.jpg") left center no-repeat;
+    background-size: 600px
+  }
+
+    .h2{
+      opacity: 1
+    }
+
+    .fa{
+      opacity: 1
+    }
+    
+
+.card1{
+  background: url("../images/lewis.jpg") center center no-repeat;
+  background-size: 300px
+}
+
+  .hover{
+    background: url("../images/lewis.jpg") left center no-repeat;
+    background-size: 600px
+  }
+
+  .h2{
+    opacity: 1
+  }
+
+    .fa{
+      opacity: 1
+    }
+
+.card2{
+  background: url("../images/andmesh.jpg") center center no-repeat;
+  background-size: 300px
+}
+
+  .hover{
+    background: url("../images/andmesh.jpg") left center no-repeat;
+    background-size: 600px
+  }
+
+    .h2{
+      opacity: 1
+    }
+
+    .fa{
+      opacity: 1
+    }
+
+  .h2{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s
+  }
+
+.fa{
+  opacity: 0;
+  transition: opacity 1s
+}
+
+.icons{
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around
+}

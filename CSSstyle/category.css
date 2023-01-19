@@ -1,0 +1,21 @@
+body{
+    background-image: url('../images/first.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.card{
+    margin: 5%;
+}
+
+#tulus{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQSc9bhd_Gt4Ijy7vzi9Rn07b1U9olmrmSzOxWDIoIZpgB1WOZUjMx2gq2_HyU57PwwA&usqp=CAU");
+}
+#AndmeshKamelang {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQSc9bhd_Gt4Ijy7vzi9Rn07b1U9olmrmSzOxWDIoIZpgB1WOZUjMx2gq2_HyU57PwwA&usqp=CAU");
+}
+#JustinBieber{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrQSc9bhd_Gt4Ijy7vzi9Rn07b1U9olmrmSzOxWDIoIZpgB1WOZUjMx2gq2_HyU57PwwA&usqp=CAU");
+}
